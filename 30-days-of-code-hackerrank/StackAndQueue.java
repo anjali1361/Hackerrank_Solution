@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 public class StackAndQueue {
@@ -29,7 +29,7 @@ public class StackAndQueue {
         char[] s = input.toCharArray();
 
         // Create a Solution object:
-        Solution p = new Solution();
+        StackAndQueue p = new StackAndQueue();
 
         // Enqueue/Push all chars to their respective data structures:
         for (char c : s) {

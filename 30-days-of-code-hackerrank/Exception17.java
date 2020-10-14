@@ -1,7 +1,6 @@
 import java.util.*;
-import java.io.*;
 
-class Calculator{
+class Custom_Calculator1{
 
     public int power(int n,int p) throws Exception{
         if(n>=0 && p>=0){
@@ -24,9 +23,9 @@ class Exception17{
         
             int n = in.nextInt();
             int p = in.nextInt();
-            Calculator myCalculator = new Calculator();
+            Custom_Calculator1 myCustom_Calculator1 = new Custom_Calculator1();
             try {
-                int ans = myCalculator.power(n, p);
+                int ans = myCustom_Calculator1.power(n, p);
                 System.out.println(ans);
             }
             catch (Exception e) {

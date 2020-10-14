@@ -1,25 +1,19 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
-public class Solution {
+import java.util.*;
+public class Solution11 {
 
 
   static int findMaxSum(int[][] mat){
       
-      int max-sum = Integer.MIN_VALUE;
+      int max = Integer.MIN_VALUE;
       for(int i=0;i<4;i++){
           for(int j=0;j<4;j++){
               int sum = (mat[i][j]+mat[i][j+1]+mat[i][j+2]+mat[i+1][j+1]+mat[i+2][j]+mat                         [i+2][j+1]+mat[i+2][j+2]);
 
-              max_sum = Math.max(sum,max_sum);
+              max = Math.max(sum,max);
           }
       }
-      return max_sum;
+      return max;
   }
 
 
