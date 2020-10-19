@@ -163,7 +163,7 @@ public class HangmanApplication {
     System.out.println();
  
     System.out.println("I have picked my word, Below is a Picture, and below"
-    +" that is your current guess, which starts off as nothing.\n Every time you "
+    +" that is your current guess, which starts off as nothing.Every time you "
     +"guess incorrectly. I add a body part to the picture. \nWhen there is a full"
     +" person you loss");
  
